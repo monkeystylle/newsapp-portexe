@@ -6,6 +6,7 @@ export default function App({ Component, pageProps }) {
   return (
     <>
       <GlobalStyles />
+
       <AppLayout>
         <Component {...pageProps} />
       </AppLayout>

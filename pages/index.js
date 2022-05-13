@@ -13,9 +13,6 @@ export default function Home() {
 }
 
 const PageWrapper = styled.div`
-  max-width: 1200px;
-  margin: auto;
-  width: 90%;
   height: 100%;
 `;
 

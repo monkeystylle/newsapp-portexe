@@ -19,6 +19,9 @@ const Container = styled.div`
 
 const Content = styled.div`
   flex: 1;
+  max-width: 1200px;
+  margin: auto;
+  width: 90%;
 `;
 
 const PageContainer = styled.div``;

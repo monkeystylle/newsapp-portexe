@@ -19,7 +19,7 @@ const Toolbar = () => {
 
 const ToolbarWrapper = styled.div`
   width: 100%;
-  padding: 24px;
+  padding-top: 24px;
   display: flex;
   gap: 48px;
   justify-content: center;
