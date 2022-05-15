@@ -39,7 +39,7 @@ const Feed = ({ pageNumber, articles }) => {
           onClick={() => {
             if (pageNumber < 5) {
               router
-                .push(`/feed/${pageNumber - 1}`)
+                .push(`/feed/${pageNumber + 1}`)
                 .then(() => window.scrollTo(0, 0));
             }
           }}
@@ -117,6 +117,7 @@ const PaginatorWrapper = styled.div`
   display: flex;
   justify-content: center;
   gap: 32px;
+  font-size: 1.2rem;
 `;
 
 const PreviousPage = styled.div`

@@ -6,7 +6,7 @@ export default function Home() {
     <PageWrapper>
       <Wrapper>
         <Title>Next.js News App</Title>
-        <SubTitle>Your one stop shop for the latest news article</SubTitle>
+        <SubTitle>A simple news app for the latest news article</SubTitle>
       </Wrapper>
     </PageWrapper>
   );

@@ -10,7 +10,7 @@ const EOM = ({ employee }) => {
         <h3>Name: {employee.name}</h3>
         <h6>Position: {employee.position}</h6>
         <Image src={employee.image} />
-        <p>Info:{employee.description}</p>
+        <Info>The Purple Guy lol</Info>
       </div>
     </PageContainer>
   );
@@ -18,6 +18,7 @@ const EOM = ({ employee }) => {
 
 const PageContainer = styled.div`
   margin: 64px 128px;
+  padding: 32px 0;
   flex: 1;
   display: flex;
   flex-direction: column;
@@ -32,6 +33,10 @@ const Title = styled.h1`
 const Image = styled.img`
   margin: 16px 0;
   border-radius: 8px;
+`;
+
+const Info = styled.p`
+  font-size: 2rem;
 `;
 
 export const getServerSideProps = async pageContext => {
